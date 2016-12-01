@@ -7,8 +7,6 @@ node {
     sh "node -v"
     sh "npm -v"
     
-    sh "gulp -v"
-
     stage 'checkout'
     checkout scm
 
